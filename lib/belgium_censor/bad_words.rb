@@ -4,9 +4,7 @@
 # WARNING: If you are easily offended DO NOT READ THIS FILE as for obvious reasons
 # this file needs to contain a lot of bad words that are disallowed
 
-
 module ::BelgiumCensorPluginModule
-
   #noinspection SpellCheckingInspection
   SIMPLE_BAD_WORDS = %w[
     a55hole
@@ -474,11 +472,15 @@ module ::BelgiumCensorPluginModule
   ]
 
   MULTIWORD_BAD_WORDS = [
-    "ass hole", "big tits", "blow job", "bull shit", "butt fuck", "g spot", "hard on"
+    "ass hole",
+    "big tits",
+    "blow job",
+    "bull shit",
+    "butt fuck",
+    "g spot",
+    "hard on",
   ]
 
   #noinspection SpellCheckingInspection
-  REGEX_BAD_WORDS = [
-    "\\bcum\\b"
-  ]
+  REGEX_BAD_WORDS = ["\\bcum\\b"]
 end

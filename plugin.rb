@@ -18,14 +18,12 @@ require_relative "lib/belgium_censor/engine"
 after_initialize do
   # Code which should run after Rails has finished booting
 
-  require_relative 'lib/belgium_censor/censor'
+  require_relative "lib/belgium_censor/censor"
 
   censor = BelgiumCensorPluginModule::Censor.new
 
   Plugin::Filter.register(:after_post_cook) do |_, cooked|
-    unless SiteSetting.plugin_belgium_censor_enabled
-      return cooked
-    end
+    return cooked unless SiteSetting.plugin_belgium_censor_enabled
 
     censor.filter cooked
   end
