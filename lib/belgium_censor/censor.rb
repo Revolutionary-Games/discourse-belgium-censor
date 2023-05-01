@@ -9,8 +9,12 @@ module ::BelgiumCensorPluginModule
   class Censor
     def initialize
       super
-      @combined_regex = Regexp.new(SIMPLE_BAD_WORDS.map { |w| Regexp.escape(w) }.join('|'),
-                                   Regexp::IGNORECASE)
+
+      all_words = SIMPLE_BAD_WORDS + MULTIWORD_BAD_WORDS
+
+      @combined_regex = Regexp.new(
+        (all_words.map { |w| Regexp.escape(w) } + REGEX_BAD_WORDS).join('|'),
+        Regexp::IGNORECASE)
     end
 
     def filter(text)
