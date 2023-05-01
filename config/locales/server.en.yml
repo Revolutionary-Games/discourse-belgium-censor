@@ -1,1 +1,3 @@
 en:
+  site_settings:
+    plugin_belgium_censor_enabled: Enable word replacing with belgium

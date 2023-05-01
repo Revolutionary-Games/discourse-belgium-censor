@@ -1,8 +1,8 @@
 {
-  "name": "discourse-plugin-name",
-  "version": "0.0.1",
-  "repository": "TODO",
-  "author": "Discourse",
+  "name": "discourse-belgium-censor",
+  "version": "1.0.0",
+  "repository": "https://github.com/Revolutionary-Games/discourse-belgium-censor",
+  "author": "Revolutionary Games Studio",
   "license": "MIT",
   "devDependencies": {
     "eslint-config-discourse": "^3.1.0"

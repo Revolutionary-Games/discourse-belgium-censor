@@ -1,4 +1,4 @@
 plugins:
-  plugin_name_enabled:
+  plugin_belgium_censor_enabled:
     default: true
     client: true
