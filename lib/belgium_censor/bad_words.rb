@@ -182,11 +182,8 @@ module ::BelgiumCensorPluginModule
     fuk
     fvck
     fxck
-    gae
-    gai
     ganja
     gay
-    gays
     gey
     gfy
     ghay
