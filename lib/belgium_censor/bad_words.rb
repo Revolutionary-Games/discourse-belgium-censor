@@ -418,7 +418,6 @@ module ::BelgiumCensorPluginModule
     testee
     tinkle
     titfuck
-    titi
     tits
     tittiefucker
     titties
@@ -479,5 +478,5 @@ module ::BelgiumCensorPluginModule
   ]
 
   #noinspection SpellCheckingInspection
-  REGEX_BAD_WORDS = ["\\bcum\\b"]
+  REGEX_BAD_WORDS = ["\\bcum\\b", "\\btiti\\b"]
 end
