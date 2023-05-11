@@ -340,7 +340,6 @@ module ::BelgiumCensorPluginModule
     queers
     quicky
     quim
-    racy
     rape
     raped
     raper
@@ -478,5 +477,5 @@ module ::BelgiumCensorPluginModule
   ]
 
   #noinspection SpellCheckingInspection
-  REGEX_BAD_WORDS = ["\\bcum\\b", "\\btiti\\b"]
+  REGEX_BAD_WORDS = ["\\bcum\\b", "\\btiti\\b", "\\bracy"]
 end
