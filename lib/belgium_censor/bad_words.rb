@@ -215,8 +215,6 @@ module ::BelgiumCensorPluginModule
     hooker
     hoor
     hootch
-    hooter
-    hooters
     horny
     humped
     humping
@@ -477,5 +475,5 @@ module ::BelgiumCensorPluginModule
   ]
 
   #noinspection SpellCheckingInspection
-  REGEX_BAD_WORDS = ["\\bcum\\b", "\\btiti\\b", "\\bracy"]
+  REGEX_BAD_WORDS = ["\\bcum\\b", "\\btiti\\b", "\\bracy", "\\bhooter"]
 end
