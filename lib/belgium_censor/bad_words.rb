@@ -397,7 +397,6 @@ module ::BelgiumCensorPluginModule
     sodom
     souse
     soused
-    spic
     spick
     spik
     spiks
@@ -475,5 +474,5 @@ module ::BelgiumCensorPluginModule
   ]
 
   #noinspection SpellCheckingInspection
-  REGEX_BAD_WORDS = ["\\bcum\\b", "\\btiti\\b", "\\bracy", "\\bhooter"]
+  REGEX_BAD_WORDS = ["\\bcum\\b", "\\btiti\\b", "\\bracy", "\\bhooter", "spic\\b"]
 end
