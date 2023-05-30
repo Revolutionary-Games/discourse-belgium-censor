@@ -306,8 +306,6 @@ module ::BelgiumCensorPluginModule
     pantie
     panty
     pastie
-    pecker
-    pedo
     pedophile
     pedophilia
     pedophiliac
@@ -473,5 +471,14 @@ module ::BelgiumCensorPluginModule
   ]
 
   #noinspection SpellCheckingInspection
-  REGEX_BAD_WORDS = ["\\bcum\\b", "\\btiti\\b", "\\bracy", "\\bhooter", "spic\\b", "tard\\b"]
+  REGEX_BAD_WORDS = [
+    "\\bcum\\b",
+    "\\btiti\\b",
+    "\\bracy",
+    "\\bhooter",
+    "spic\\b",
+    "tard\\b",
+    "\\bpecker",
+    "\\bpedo",
+  ]
 end
