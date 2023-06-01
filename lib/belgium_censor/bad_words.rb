@@ -194,8 +194,6 @@ module ::BelgiumCensorPluginModule
     goldenshower
     gook
     gringo
-    gspot
-    g-spot
     gtfo
     guido
     h0m0
@@ -473,9 +471,10 @@ module ::BelgiumCensorPluginModule
   #noinspection SpellCheckingInspection
   REGEX_BAD_WORDS = [
     "\\bcum\\b",
+    "\\bg-?spot",
+    "\\bhooter",
     "\\btiti\\b",
     "\\bracy",
-    "\\bhooter",
     "spic\\b",
     "tard\\b",
     "\\bpecker",
