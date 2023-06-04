@@ -394,7 +394,6 @@ module ::BelgiumCensorPluginModule
     souse
     soused
     spick
-    spik
     spiks
     spooge
     spunk
@@ -476,6 +475,7 @@ module ::BelgiumCensorPluginModule
     "\\btiti\\b",
     "\\bracy",
     "spic\\b",
+    "spik\\b",
     "tard\\b",
     "\\bpecker",
     "\\bpedo",
