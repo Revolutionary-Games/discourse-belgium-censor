@@ -320,7 +320,6 @@ module ::BelgiumCensorPluginModule
     poontang
     porn
     porno
-    prig
     pube
     pussies
     pussy
@@ -472,6 +471,7 @@ module ::BelgiumCensorPluginModule
     "\\bcum\\b",
     "\\bg-?spot",
     "\\bhooter",
+    "\\bprig",
     "\\btiti\\b",
     "\\bracy",
     "spic\\b",
