@@ -403,8 +403,6 @@ module ::BelgiumCensorPluginModule
     tampon
     tawdry
     teat
-    teste
-    testee
     tinkle
     titfuck
     tits
