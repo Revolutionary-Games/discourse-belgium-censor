@@ -311,7 +311,6 @@ module ::BelgiumCensorPluginModule
     peyote
     phuck
     pillowbiter
-    pimp
     pinko
     piss
     polack
@@ -469,6 +468,7 @@ module ::BelgiumCensorPluginModule
     "\\bcum\\b",
     "\\bg-?spot",
     "\\bhooter",
+    "\\bpimp\\b",
     "\\bprig",
     "\\btiti\\b",
     "\\bracy",
