@@ -410,7 +410,6 @@ module ::BelgiumCensorPluginModule
     titty
     tittyfuck
     tittyfucker
-    toke
     toots
     tramp
     tubgirl
@@ -475,6 +474,7 @@ module ::BelgiumCensorPluginModule
     "spic\\b",
     "spik\\b",
     "tard\\b",
+    "toke\\b",
     "\\bpecker",
     "\\bpedo",
   ]
