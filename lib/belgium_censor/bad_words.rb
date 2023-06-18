@@ -54,7 +54,6 @@ module ::BelgiumCensorPluginModule
     c.u.n.t
     c0ck
     c-0-c-k
-    caca
     cahone
     cameltoe
     carpetmuncher
@@ -68,8 +67,6 @@ module ::BelgiumCensorPluginModule
     clitorus
     clitty
     cocain
-    cocaine
-    cock
     c-o-c-k
     cockblock
     cockholster
@@ -78,7 +75,6 @@ module ::BelgiumCensorPluginModule
     cocksucker
     coital
     commie
-    coon
     corksucker
     crackwhore
     cummin
@@ -179,12 +175,10 @@ module ::BelgiumCensorPluginModule
     fuckwad
     fuckwit
     fudgepacker
-    fuk
     fvck
     fxck
     ganja
     gay
-    gey
     gfy
     ghay
     ghey
@@ -211,9 +205,7 @@ module ::BelgiumCensorPluginModule
     hooch
     hookah
     hooker
-    hoor
     hootch
-    horny
     humped
     humping
     hussy
@@ -237,14 +229,12 @@ module ::BelgiumCensorPluginModule
     kikes
     kinky
     kkk
-    klan
     knobend
     kooch
     kooches
     kootch
     kraut
     kyke
-    labia
     lech
     leper
     lesbo
@@ -280,9 +270,7 @@ module ::BelgiumCensorPluginModule
     mutherfucking
     muthrfucking
     nads
-    nazi
     nazism
-    negro
     nigga
     niggah
     niggas
@@ -300,7 +288,6 @@ module ::BelgiumCensorPluginModule
     orgies
     orgy
     p.u.s.s.y
-    paki
     pantie
     panty
     pastie
@@ -315,11 +302,9 @@ module ::BelgiumCensorPluginModule
     piss
     polack
     pollock
-    poon
     poontang
     porn
     porno
-    pube
     pussies
     pussy
     pussypounder
@@ -332,10 +317,7 @@ module ::BelgiumCensorPluginModule
     queers
     quicky
     quim
-    rape
     raped
-    raper
-    rapist
     raunch
     rectal
     reefer
@@ -385,7 +367,6 @@ module ::BelgiumCensorPluginModule
     slutkiss
     sluts
     smegma
-    smut
     snatch
     s-o-b
     sodom
@@ -411,15 +392,11 @@ module ::BelgiumCensorPluginModule
     tittyfuck
     tittyfucker
     toots
-    tramp
     tubgirl
-    turd
     tush
-    twat
     twats
     urinal
     viagra
-    virgin
     vixen
     vulva
     wang
@@ -464,18 +441,40 @@ module ::BelgiumCensorPluginModule
 
   #noinspection SpellCheckingInspection
   REGEX_BAD_WORDS = [
+    "\\bcaca\\b",
+    "(?<!n)(?<!a)cock(?!pit)",
+    "\\bcoon",
     "\\bcum\\b",
+    "fuk(?!us)",
+    "gey(?!si)",
     "\\bg-?spot",
+    "hoor\\b",
+    "\\bhorny",
     "\\bhooter",
+    "klan\\b",
+    "(?<!i)labia",
+    "(?<!hke)nazi",
+    "(?<!onte)negro",
+    "paki(?!stan)",
+    "\\bpoon",
     "\\bpimp\\b",
-    "\\bprig",
-    "\\btiti\\b",
-    "\\bracy",
-    "spic\\b",
-    "spik\\b",
-    "tard\\b",
-    "toke\\b",
+    "pube(?!rt)",
     "\\bpecker",
     "\\bpedo",
+    "\\btiti\\b",
+    "\\bracy",
+    "(?<![gtc])rape(?!seed)(?!utic)",
+    "(?<![sc|t])raper",
+    "(?<!the)rapist",
+    "\\bprig",
+    "(?<!bi)smut",
+    "spic\\b",
+    "spik\\b",
+    "(?<!mus)tard\\b",
+    "toke\\b",
+    "tramp(?!ol)",
+    "(?<!s)turd(?!ay)",
+    "twat(?!ch)(?!er)",
+    "virgin(?!ia)",
   ]
 end
