@@ -446,7 +446,7 @@ module ::BelgiumCensorPluginModule
     "\\bcoon",
     "\\bcum\\b",
     "fuk(?!us)",
-    "gey(?!si)",
+    "gey(?!si)(?!se)",
     "\\bg-?spot",
     "hoor\\b",
     "\\bhorny",
