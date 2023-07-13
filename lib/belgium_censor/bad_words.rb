@@ -317,7 +317,6 @@ module ::BelgiumCensorPluginModule
     queers
     quicky
     quim
-    raped
     raunch
     rectal
     reefer
