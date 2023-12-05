@@ -381,7 +381,6 @@ module ::BelgiumCensorPluginModule
     t1t
     tampon
     tawdry
-    teat
     tinkle
     titfuck
     tits
@@ -460,6 +459,7 @@ module ::BelgiumCensorPluginModule
     "pube(?!rt)",
     "\\bpecker",
     "\\bpedo",
+    "\\bteat\\b",
     "\\btiti\\b",
     "\\bracy",
     "(?<![gtc])rape(?!seed)(?!utic)",
