@@ -22,7 +22,7 @@ module ::BelgiumCensorPluginModule
       original = text
 
       # preprocess by removing non-printing characters
-      text_without_non_printing = text.gsub(/[\u200B-\u200D\uFEFF]/, '')
+      text_without_non_printing = text.gsub(/[\u200B-\u200D\uFEFF]/, "")
 
       # apply the bad words filter list
       filtered = text_without_non_printing.gsub(@combined_regex) { |_| REPLACING_WORD }
