@@ -19,7 +19,20 @@ module ::BelgiumCensorPluginModule
     end
 
     def filter(text)
-      text.gsub(@combined_regex) { |_| REPLACING_WORD }
+      original = text
+
+      # preprocess by removing non-printing characters
+      text_without_non_printing = text.gsub(/[\u200B-\u200D\uFEFF]/, '')
+
+      # apply the bad words filter list
+      filtered = text_without_non_printing.gsub(@combined_regex) { |_| REPLACING_WORD }
+
+      if filtered != text_without_non_printing
+        filtered
+      else
+        # If no changes, let original text through
+        original
+      end
     end
   end
 end
