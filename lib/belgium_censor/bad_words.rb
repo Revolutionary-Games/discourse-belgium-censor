@@ -426,14 +426,7 @@ module ::BelgiumCensorPluginModule
     zoophile
   ]
 
-  MULTIWORD_BAD_WORDS = [
-    "ass hole",
-    "big tits",
-    "blow job",
-    "bull shit",
-    "butt fuck",
-    "hard on",
-  ]
+  MULTIWORD_BAD_WORDS = ["ass hole", "big tits", "blow job", "bull shit", "butt fuck", "hard on"]
 
   #noinspection SpellCheckingInspection
   REGEX_BAD_WORDS = [
