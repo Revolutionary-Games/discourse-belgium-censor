@@ -433,7 +433,6 @@ module ::BelgiumCensorPluginModule
     "blow job",
     "bull shit",
     "butt fuck",
-    "g spot",
     "hard on",
   ]
 
@@ -446,6 +445,7 @@ module ::BelgiumCensorPluginModule
     "fuk(?!us)",
     "gey(?!si)(?!se)",
     "\\bg-?spot",
+    "(?<!in)g\s*spot",
     "hoor\\b",
     "\\bhorny",
     "\\bhooter",
