@@ -466,7 +466,7 @@ module ::BelgiumCensorPluginModule
     "(?<![sc|t])raper",
     "(?<!the)rapist",
     "\\bprig",
-    "(?<!bi)smut",
+    "\\bsmut",
     "spic\\b",
     "spik\\b",
     "(?<!mus)tard\\b",
