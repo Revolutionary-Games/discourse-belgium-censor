@@ -178,7 +178,6 @@ module ::BelgiumCensorPluginModule
     fvck
     fxck
     ganja
-    gay
     gfy
     ghay
     ghey
@@ -444,6 +443,7 @@ module ::BelgiumCensorPluginModule
     "\\bcum\\b",
     "fuk(?!us)",
     "gey(?!si)(?!se)",
+    "(?<!ar)gay",
     "\\bg-?spot",
     "(?<!in)g\s*spot",
     "hoor\\b",
