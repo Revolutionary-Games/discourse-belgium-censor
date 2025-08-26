@@ -9,5 +9,5 @@ group :development do
   gem "minitest"
 
   # needed by rubocop
-  gem 'racc'
+  gem "racc"
 end
