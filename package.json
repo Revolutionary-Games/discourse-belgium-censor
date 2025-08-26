@@ -5,6 +5,6 @@
   "author": "Revolutionary Games Studio",
   "license": "MIT",
   "devDependencies": {
-    "eslint-config-discourse": "^3.1.0"
+    "eslint-config-discourse": "^5.1.0"
   }
 }
