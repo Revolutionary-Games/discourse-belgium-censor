@@ -7,4 +7,7 @@ group :development do
   gem "syntax_tree"
   gem "syntax_tree-disable_ternary"
   gem "minitest"
+
+  # needed by rubocop
+  gem 'racc'
 end
