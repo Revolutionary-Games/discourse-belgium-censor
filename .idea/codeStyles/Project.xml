@@ -14,7 +14,7 @@
       <option name="SPACES_WITHIN_OBJECT_LITERAL_BRACES" value="true" />
       <option name="SPACES_WITHIN_IMPORTS" value="true" />
     </JSCodeStyleSettings>
-    <Ruby>
+    <Ruby version="1">
       <option name="CONVERT_BRACE_BLOCK_BY_ENTER" value="false" />
     </Ruby>
     <TypeScriptCodeStyleSettings version="0">
