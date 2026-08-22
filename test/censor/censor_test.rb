@@ -8,13 +8,7 @@ require "minitest/autorun"
 require_relative "../../lib/belgium_censor/censor"
 
 class CensorTest < Minitest::Test
-  COMMON_FALSE_POSITIVES = [
-    "grape",
-    "hiding spot",
-    "transmutation",
-    "therapist",
-    "theocracy",
-  ]
+  COMMON_FALSE_POSITIVES = ["grape", "hiding spot", "transmutation", "therapist", "theocracy"]
 
   TEXT_THAT_NEEDS_FILTERING = ["g-spot", "g spot", "rape"]
 
