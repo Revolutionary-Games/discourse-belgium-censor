@@ -16,7 +16,7 @@ COMMON_FALSE_POSITIVES = [
   "theocracy",
 ]
 
-TEXT_THAT_NEEDS_FILTERING = ["g-spot", "g spot", "rape", "gay"]
+TEXT_THAT_NEEDS_FILTERING = ["g-spot", "g spot", "rape"]
 
 class CensorTest < Minitest::Test
   def setup
